@@ -1,8 +1,9 @@
 import React from "react";
 
-function Blog() {
+function Blog(props) {
   return (
     <div>
+      <img src={props.randomImage}></img>
       <h1>Blog Page</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
